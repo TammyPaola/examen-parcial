@@ -1,0 +1,16 @@
+<div *ngIf="hero">
+
+  <h2>Detalle del Cliente</h2>
+  <div><span>cedula: </span>{{hero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name" />
+      <div><span>cedula: </span>{{hero.cedula}}</div>
+      <div><span>direccion: </span>{{hero.direccion}}</div>
+      <div><span>telefono: </span>{{hero.telefono}}</div>
+      <div><span>subtotal: </span>{{hero.subtotal}}</div>
+      <div><span>iva: </span>{{hero.iva}}</div>
+    </label>
+  </div>
+
+</div>

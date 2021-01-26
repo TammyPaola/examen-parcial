@@ -1,0 +1,15 @@
+<div *ngIf="producto">
+
+  <h2>Detalle de Productos</h2>
+  <div><span>codigo: </span>{{producto.id}}</div>
+  <div>
+    <label>
+      <div><span>Nombre de Productos</span>{{producto.name}}</div>
+      <span>Cantidad</span><input [(ngModel)]="producto.cantidad" placeholder="name" />
+      <div><span>precio </span>{{producto.precio}}</div>
+      <div><span>total: </span>{{hero.total}}</div>
+
+    </label>
+  </div>
+
+</div>
